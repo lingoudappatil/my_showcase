@@ -173,7 +173,7 @@ export default function Hero() {
                 transition={{ duration: 0.3 }}
               >
                 <img
-                  src="/profile-photo.jpg"
+                  src={import.meta.env.BASE_URL + "profile-photo.jpg"}
                   alt="Lingouda Patil"
                   className="w-full h-full object-cover"
                 />
